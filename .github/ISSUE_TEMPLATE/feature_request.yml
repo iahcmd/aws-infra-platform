@@ -1,0 +1,22 @@
+name: "💡 Feature Request"
+description: "Suggest an idea or new module for aws-infra-platform"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an idea or module for aws-infra-platform.
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem / Use Case"
+      description: "What problem does this solve or what feature are you proposing?"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      description: "Describe the module architecture or implementation approach."
+    validations:
+      required: true

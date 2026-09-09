@@ -1,0 +1,6 @@
+# Example tfvars for Dev environment
+project_name      = "aws-platform"
+environment       = "dev"
+region            = "us-east-1"
+container_image   = "ghcr.io/iahcmd/sample-api:v1.0.0"
+database_password = "ChangeMeDevSecret123!"

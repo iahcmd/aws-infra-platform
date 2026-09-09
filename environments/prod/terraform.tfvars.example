@@ -1,0 +1,6 @@
+# Example tfvars for Prod environment
+project_name      = "aws-platform"
+environment       = "prod"
+region            = "us-east-1"
+container_image   = "ghcr.io/iahcmd/sample-api:v1.0.0"
+database_password = "ChangeMeProdSuperSecretPassword2026!"

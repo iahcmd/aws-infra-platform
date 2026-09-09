@@ -1,0 +1,34 @@
+name: "🐛 Bug Report"
+description: "File a bug report for aws-infra-platform"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: module
+    attributes:
+      label: "Affected Module / Component"
+      description: "e.g. modules/vpc, modules/ecs, environments/prod"
+      placeholder: "modules/vpc"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the bug"
+      description: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "To Reproduce"
+      description: "Steps to reproduce the behavior."
+      placeholder: |
+        1. Run `terraform init` in '...'
+        2. Run `terraform plan` with vars '...'
+        3. See error
+    validations:
+      required: true
