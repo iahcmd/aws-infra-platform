@@ -1,5 +1,5 @@
 # ──────────────────────────────────────────────────────────────
-# aws-infra-platform Makefile
+# aws-infra-platform Makefile 
 # Common operational targets for Terraform lifecycle & validation
 # ──────────────────────────────────────────────────────────────
 
